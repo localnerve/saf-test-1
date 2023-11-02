@@ -1,0 +1,13 @@
+@import 'modern-normalize';
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: sans-serif;
+}
+.mydiv {
+  background: image-url('image.png');
+  width: image-width('image.png');
+  height: auto;
+}

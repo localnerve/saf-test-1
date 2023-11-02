@@ -1,0 +1,24 @@
+{
+  "name": "saf-test-1",
+  "version": "1.0.0",
+  "description": "test isolate for @cytokine-murakami",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "rimraf dist && gulp --series images sass verify",
+    "debug": "rimraf dist && node --inspect-brk node_modules/.bin/gulp --series images sass verify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@localnerve/sass-asset-functions": "^4.6.2",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "modern-normalize": "^2.0.0",
+    "rimraf": "^5.0.5",
+    "sass": "^1.66.1"
+  },
+  "overrides": {
+    "glob-parent": "^6.0.2"
+  }
+}
